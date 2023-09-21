@@ -1104,3 +1104,10 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+/* Custom */
+
+#profile-side-img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
