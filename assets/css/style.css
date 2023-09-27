@@ -533,6 +533,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  max-height: 198px;
 }
 
 .portfolio #portfolio-flters {
@@ -572,6 +573,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  max-height: 197.97px;
 }
 
 .portfolio .portfolio-wrap::before {

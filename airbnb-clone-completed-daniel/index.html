@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>News</title>
+  </head>
+
+  <body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand ml-4" href="#"><img id="airbnb-logo" src="./images/airbnb_logo.png"><span>News</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse nav-push" id="navbarSupportedContent"> <!-- does not work if space after fisrt id -->
+        <ul class="navbar-nav ml-auto mr-4">
+
+          <!-- Navbar MD Breakpoint Forms -->
+
+          <li class="d-lg-none">
+            <form>
+              <div class="form-group">
+                <input type="search" class="form-control" placeholder="Search">
+              </div>
+            </form>
+          </li>
+          <li class="d-lg-none">
+            <form>
+              <div class="form-group">
+                <select class="form-select form-control" id="select-form-nav">
+                  <option selected>English</option>
+                  <option>Deutsch</option>
+                  <option>Italiano</option>
+                </select>
+              </div>
+            </form>
+          </li>
+
+          <!-- Navbar Titles -->
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Media assets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Product releases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <hr class="mx-2 mt-5 mb-4 d-lg-none">
+          
+          <!-- Navbar MD Media Links -->
+
+          <div class="container-fluid justify-content-center d-lg-none" id="logos-navbar">
+            <div class="row">
+              <div class="col">
+                <a href="#"><img src="./images/twitter logo.png"></a>
+              </div>
+              <div class="col">
+                <a href="#"><img src="./images/instagram logo.jpg"></a>
+              </div>
+              <div class="col">
+                <a href="#"><img src="./images/linkedin logo.png"></a>
+              </div>
+              <div class="col">
+                <a href="#"><img src="./images/tiktok-logo.png"></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dropdown Menu -->
+
+          <li class="nav-item dropdown d-none d-lg-inline">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown globe" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">🌐</a>
+            <div class="dropdown-menu dropdown-menu-right" id="dropdown-nav" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">English</a>
+              <a class="dropdown-item" href="#">Deutsch</a>
+              <a class="dropdown-item" href="#">Italiano</a>
+            </div>
+          </li>
+
+          <!-- Navbar Search-->
+
+          <li class="nav-item d-none d-lg-inline">
+            <a class="nav-link" href="#"><img id="search-icon" src="./images/Search-icon.png"> Search</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <hr class="mt-0">
+    
+    <!-- Hero -->
+    
+    <div class="container-fluid" id="hero">
+      <div class="row">
+        <div class="col-12 col-md-7 order-md-2" id="main-art-img">
+          <div class="aspectRatioBox" style="background-image: url(./images/maui-picture\ \(2\).jpg);">
+          </div> 
+        </div>
+        <div class="col-12 col-md-5 order-md-1" id="hero-pg">
+          <div>
+            <span>August 15, 2023</span>
+            <h1>Governor Green and Airbnb.org announce<br>housing support for Maui</h1>
+            <button type="button" class="btn">Read more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest News -->
+
+    <h4 id="latest-news-h4">Latest News</h4>
+    <div class="container-fluid latest-news">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="row ltn-row-1">
+            <div class="col-6">
+              <div class="aspectRatioBox lt-news-img" style="background-image: url(./images/obama-art-1.jpg);">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="lt-news-pg">
+                <h5>The Obamas, Brian Chesky announce new Voyager Scholarship recipients</h5>
+                <span>August 22, 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row ltn-row-1">
+            <div class="col-6">
+              <div class="aspectRatioBox lt-news-img" style="background-image: url(./images/lele-pons-art-2.jpg);">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="lt-news-pg">
+                <h5>Airbnb.org, alice + olivia and Lele Pons partner for World Humanitarian Day</h5>
+                <span>August 18, 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row ltn-row-2 ltn-row-2-md">
+            <div class="col-6">
+              <div class="aspectRatioBox lt-news-img" style="background-image: url(./images/travel-art-3.jpg);">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="lt-news-pg">
+                <h5>Fostering responsible travel through our ground rules for guests</h5>
+                <span>August 16, 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row ltn-row-2">
+            <div class="col-6">
+              <div class="aspectRatioBox lt-news-img" style="background-image: url(./images/pet-art-4.jpg);">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="lt-news-pg">
+                <h5>Airbnb's ulti-mutt travel guide for pets this summer</h5>
+                <span>August 16, 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subhero -->
+
+    <div class="subhero">
+      <div id="subhero-heading">
+        <h3>The economic oppotunities of hosting</h3>
+        <span>More people are turning to hosting for the first time. From community stories, to the latest Host earnings data and trends, discover how it has never been easier to host and earn on Airbnb.</span>
+      </div>
+      <div class="container-fluid">
+        <div class="row flex-nowrap scrollableRow">
+          <div class="col-9 col-lg-4 ml-0 subh-col">
+            <div class="aspectRatioBox2 subhero-img" style="background-image: url(./images/forest-house-sub-art-1.jpg);">
+            </div>
+            <div class="subhero-pg">
+              <h5>Chicago and Denver rank as top cities to start hosting in the US</h5>
+              <span>June 21, 2023</span>
+            </div>
+          </div>
+          <div class="col-9 col-lg-4 subh-col">
+            <div class="aspectRatioBox2 subhero-img" style="background-image: url(./images/teacher-airbnb-subhero-art-2.jpg);">
+            </div>
+            <div class="subhero-pg">
+              <h5>US educators are earning extra income by hosting on Airbnb</h5>
+              <span>May 31, 2023</span>
+            </div>
+          </div>
+          <div class="col-9 col-lg-4 subh-col">
+            <div class="aspectRatioBox2 subhero-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="subhero-pg">
+              <h5>More EU Hosts rely on Airbnb income, popularity of rooms grows</h5>
+              <span>May 3, 2023</span>
+            </div>
+          </div>
+          <div class="col-9 col-lg-4 subh-col">
+            <div class="aspectRatioBox2 subhero-img" style="background-image: url(./images/kentucky-subhero-art-4.jpg);">
+            </div>
+            <div class="subhero-pg">
+              <h5>Louisville leads as top trending summer spot before Kentucky Derby weekend</h5>
+              <span>May 3, 2023</span>
+            </div>
+          </div>
+          <div class="col-9 col-lg-4 subh-col">
+            <div class="aspectRatioBox2 subhero-img" style="background-image: url(./images/happy-fam-subhero-art-5.jpg);">
+            </div>
+            <div class="subhero-pg">
+              <h5>Helping Hosts in Massachusetts make their homes more energy efficient</h5>
+              <span>April 20, 2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Follow Panel -->
+
+    <div class="container-fluid follow-panel">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 center">
+          <div class="follow-header">
+            <h3>Follow Airbnb for news and travel inspiration</h3>
+          </div>
+          <div class="container-fluid" id="logos-follow">
+            <div class="row">
+              <div class="col center">
+                <a href="#"><img src="./images/twitter logo.png"></a>
+              </div>
+              <div class="col">
+                <a href="#"><img src="./images/instagram logo.jpg"></a>
+              </div>
+              <div class="col d-lg-none">
+                <a href="#"><img src="./images/linkedin logo.png"></a>
+              </div>
+              <div class="col d-lg-none">
+                <a href="#"><img src="./images/tiktok-logo.png"></a>
+              </div>
+            </div>
+            <div class="row d-none d-lg-flex">
+              <div class="col">
+                <a href="#"><img src="./images/linkedin logo.png"></a>
+              </div>
+              <div class="col">
+                <a href="#"><img src="./images/tiktok-logo.png"></a>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <div class="col-md-6 col-lg-3 my-3">
+          <div class="aspectRatioBox3 follow-img d-none d-md-flex" style="background-image: url(./images/follow-picture-2.jpg);">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 my-3">
+          <div class="aspectRatioBox3 follow-img" style="background-image: url(./images/follow-picture-1.jpg);">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 center">
+          <div class="follow-header-2">
+            <h3>Hear more from Co-founder and CEO Brian Chesky</h3>
+          </div>
+          <div class="header-btn center">
+            <button type="button" class="btn btn-outline-dark">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subhero 2 -->
+
+    <div class="subhero">
+      <div id="subhero-heading">
+        <h3>One of-a-kind stays, only on Airbnb</h3>
+        <span>Explore the unique, limited stays that give guests a rare glimpse into some of the most iconic places in pop culture.</span>
+      </div>
+      <div class="container-fluid">
+        <div class="row flex-nowrap scrollableRow">
+          <div class="col-9 col-lg-4 ml-0 subh-col">
+            <div class="aspectRatioBox2 subhero-img" style="background-image: url(./images/forest-house-sub-art-1.jpg);">
+            </div>
+            <div class="subhero-pg">
+              <h5>Barbie's Malibu DreamHouse is back on Airbnb - but this time, Ken's hosting</h5>
+              <span>June 26, 2023</span>
+            </div>
+          </div>
+          <div class="col-9 col-lg-4 subh-col">
+            <div class="aspectRatioBox2 subhero-img" style="background-image: url(./images/teacher-airbnb-subhero-art-2.jpg);">
+            </div>
+            <div class="subhero-pg">
+              <h5>Rediscover Japan in World Heritage Site Gokayama, now on Airbnb</h5>
+              <span>June 20, 2023</span>
+            </div>
+          </div>
+          <div class="col-9 col-lg-4 subh-col">
+            <div class="aspectRatioBox2 subhero-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="subhero-pg">
+              <h5>Preview Seoul Fashion Week with K-Pop's ENHYPEN at Dongdaemun Design Plaza now on Airbnb</h5>
+              <span>May 16, 2023</span>
+            </div>
+          </div>
+          <div class="col-9 col-lg-4 subh-col">
+            <div class="aspectRatioBox2 subhero-img" style="background-image: url(./images/kentucky-subhero-art-4.jpg);">
+            </div>
+            <div class="subhero-pg">
+              <h5>Give Mae the evening off and spend the night at Ted Lasso's favorite pub</h5>
+              <span>March 7, 2023</span>
+            </div>
+          </div>
+          <div class="col-9 col-lg-4 subh-col">
+            <div class="aspectRatioBox2 subhero-img" style="background-image: url(./images/happy-fam-subhero-art-5.jpg);">
+            </div>
+            <div class="subhero-pg">
+              <h5>Palais Garnier, home of The Phantom of the Opera, is now on Airbnb</h5>
+              <span>February 12, 2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categories -->
+
+    <div class="categories-main">
+      <h3>
+        Categories
+      </h3>
+      <div class="container-fluid" id="categories">
+        <div class="row" id="cat-row">
+          <div class="col" id="cat-btn">
+            <button type="button" class="btn btn-outline-dark">All</button>
+          </div>
+          <div class="col" id="cat-btn">
+            <button type="button" class="btn btn-outline-dark">Company</button>
+          </div>
+          <div class="col" id="cat-btn">
+            <button type="button" class="btn btn-outline-dark">Stays</button>
+          </div>
+          <div class="col" id="cat-btn">
+            <button type="button" class="btn btn-outline-dark">Product</button>
+          </div>
+          <div class="col" id="cat-btn">
+            <button type="button" class="btn btn-outline-dark">Policy</button>
+          </div>
+          <div class="col" id="cat-btn">
+            <button type="button" class="btn btn-outline-dark">Community</button>
+          </div>
+          <div class="col" id="cat-btn">
+            <button type="button" class="btn btn-outline-dark">Airbnb.org</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-5 col-md-4 col-lg-3 cat-col-main">
+            <div class="aspectRatioBox categories-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="categories-pg d-none d-md-flex">
+              <h5>Airbnb's ulti-mutt travel guide for pets this summer</h5>
+            </div>
+            <span class="d-none d-md-flex">August 16, 2023</span>
+          </div>
+          <div class="col-6 d-md-none cat-col-main">
+            <div class="categories-pg-sm">
+              <h3>Airbnb's ulti-mutt travel guide for pets this summer</h3>
+            </div>
+            <span>August 16, 2023</span>
+          </div>
+          <div class="col-5 col-md-4 col-lg-3 cat-col-main">
+            <div class="aspectRatioBox categories-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="categories-pg d-none d-md-flex">
+              <h5>Airbnb's ulti-mutt travel guide for pets this summer</h5>
+            </div>
+            <span class="d-none d-md-flex">August 16, 2023</span>
+          </div>
+          <div class="col-6 d-md-none cat-col-main">
+            <div class="categories-pg-sm">
+              <h3>Airbnb's ulti-mutt travel guide for pets this summer</h3>
+            </div>
+            <span>August 16, 2023</span>
+          </div>
+          <div class="col-5 col-md-4 col-lg-3 cat-col-main">
+            <div class="aspectRatioBox categories-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="categories-pg d-none d-md-flex">
+              <h5>Airbnb's ulti-mutt travel guide for pets this summer</h5>
+            </div>
+            <span class="d-none d-md-flex">August 16, 2023</span>
+          </div>
+          <div class="col-6 d-md-none cat-col-main">
+            <div class="categories-pg-sm">
+              <h3>Airbnb's ulti-mutt travel guide for pets this summer</h3>
+            </div>
+            <span>August 16, 2023</span>
+          </div>
+          <div class="col-5 col-md-4 col-lg-3 cat-col-main">
+            <div class="aspectRatioBox categories-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="categories-pg d-none d-md-flex">
+              <h5>Airbnb's ulti-mutt travel guide for pets this summer</h5>
+            </div>
+            <span class="d-none d-md-flex">August 16, 2023</span>
+          </div>
+          <div class="col-6 d-md-none cat-col-main">
+            <div class="categories-pg-sm">
+              <h3>Airbnb's ulti-mutt travel guide for pets this summer</h3>
+            </div>
+            <span>August 16, 2023</span>
+          </div>
+          <div class="col-5 col-md-4 col-lg-3 cat-col-main">
+            <div class="aspectRatioBox categories-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="categories-pg d-none d-md-flex">
+              <h5>Airbnb's ulti-mutt travel guide for pets this summer</h5>
+            </div>
+            <span class="d-none d-md-flex">August 16, 2023</span>
+          </div>
+          <div class="col-6 d-md-none cat-col-main">
+            <div class="categories-pg-sm">
+              <h3>Airbnb's ulti-mutt travel guide for pets this summer</h3>
+            </div>
+            <span>August 16, 2023</span>
+          </div>
+          <div class="col-5 col-md-4 col-lg-3 cat-col-main">
+            <div class="aspectRatioBox categories-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="categories-pg d-none d-md-flex">
+              <h5>Airbnb's ulti-mutt travel guide for pets this summer</h5>
+            </div>
+            <span class="d-none d-md-flex">August 16, 2023</span>
+          </div>
+          <div class="col-6 d-md-none cat-col-main">
+            <div class="categories-pg-sm">
+              <h3>Airbnb's ulti-mutt travel guide for pets this summer</h3>
+            </div>
+            <span>August 16, 2023</span>
+          </div>
+          <div class="col-5 col-md-4 col-lg-3 cat-col-main">
+            <div class="aspectRatioBox categories-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="categories-pg d-none d-md-flex">
+              <h5>Airbnb's ulti-mutt travel guide for pets this summer</h5>
+            </div>
+            <span class="d-none d-md-flex">August 16, 2023</span>
+          </div>
+          <div class="col-6 d-md-none cat-col-main">
+            <div class="categories-pg-sm">
+              <h3>Airbnb's ulti-mutt travel guide for pets this summer</h3>
+            </div>
+            <span>August 16, 2023</span>
+          </div>
+          <div class="col-5 col-md-4 col-lg-3 cat-col-main">
+            <div class="aspectRatioBox categories-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="categories-pg d-none d-md-flex">
+              <h5>Airbnb's ulti-mutt travel guide for pets this summer</h5>
+            </div>
+            <span class="d-none d-md-flex">August 16, 2023</span>
+          </div>
+          <div class="col-6 d-md-none cat-col-main">
+            <div class="categories-pg-sm">
+              <h3>Airbnb's ulti-mutt travel guide for pets this summer</h3>
+            </div>
+            <span>August 16, 2023</span>
+          </div>
+          <div class="col-5 col-md-4 col-lg-3 cat-col-main">
+            <div class="aspectRatioBox categories-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="categories-pg d-none d-md-flex">
+              <h5>Airbnb's ulti-mutt travel guide for pets this summer</h5>
+            </div>
+            <span class="d-none d-md-flex">August 16, 2023</span>
+          </div>
+          <div class="col-6 d-md-none cat-col-main">
+            <div class="categories-pg-sm">
+              <h3>Airbnb's ulti-mutt travel guide for pets this summer</h3>
+            </div>
+            <span>August 16, 2023</span>
+          </div>
+          <div class="col-5 col-md-4 col-lg-3 cat-col-main">
+            <div class="aspectRatioBox categories-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="categories-pg d-none d-md-flex">
+              <h5>Airbnb's ulti-mutt travel guide for pets this summer</h5>
+            </div>
+            <span class="d-none d-md-flex">August 16, 2023</span>
+          </div>
+          <div class="col-6 d-md-none cat-col-main">
+            <div class="categories-pg-sm">
+              <h3>Airbnb's ulti-mutt travel guide for pets this summer</h3>
+            </div>
+            <span>August 16, 2023</span>
+          </div>
+          <div class="col-5 col-md-4 col-lg-3 cat-col-main">
+            <div class="aspectRatioBox categories-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="categories-pg d-none d-md-flex">
+              <h5>Airbnb's ulti-mutt travel guide for pets this summer</h5>
+            </div>
+            <span class="d-none d-md-flex">August 16, 2023</span>
+          </div>
+          <div class="col-6 d-md-none cat-col-main">
+            <div class="categories-pg-sm">
+              <h3>Airbnb's ulti-mutt travel guide for pets this summer</h3>
+            </div>
+            <span>August 16, 2023</span>
+          </div>
+          <div class="col-5 col-md-4 col-lg-3 cat-col-main">
+            <div class="aspectRatioBox categories-img" style="background-image: url(./images/europe-subhero-art-3.jpg);">
+            </div>
+            <div class="categories-pg d-none d-md-flex">
+              <h5>Airbnb's ulti-mutt travel guide for pets this summer</h5>
+            </div>
+            <span class="d-none d-md-flex">August 16, 2023</span>
+          </div>
+          <div class="col-6 d-md-none cat-col-main">
+            <div class="categories-pg-sm">
+              <h3>Airbnb's ulti-mutt travel guide for pets this summer</h3>
+            </div>
+            <span>August 16, 2023</span>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-outline-dark">View more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <hr class="my-0">
+    <div class="container-fluid footer-main">
+      <div class="row">
+        <div class="col-12 col-xl-4 d-none d-xl-inline" id="hdr-ftr">
+          Support
+          <div class="d-none d-xl-inline" id="xl-brk-ftr">
+            <div>Help Center</div>
+            <div>Disability support</div>
+            <div>Air Cover</div>
+            <div>Cancelation options</div>
+            <div>Anti-discrimination</div>
+            <div>Report neighborhood concern</div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-4 d-none d-xl-inline" id="hdr-ftr">
+          Hosting
+          <div class="d-none d-xl-inline" id="xl-brk-ftr">
+            <div>Airbnb your home</div>
+            <div>Community forum</div>
+            <div>AirCover for Hosts</div>
+            <div>Hosting responsibly</div>
+            <div>Hosting Resources</div>
+            <div>Airbnb-friendly apartments</div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-4 d-none d-xl-inline" id="hdr-ftr">
+          Airbnb
+          <div class="d-none d-xl-inline" id="xl-brk-ftr">
+            <div>Newsroom</div>
+            <div>Investors</div>
+            <div>New features</div>
+            <div>Gift cards</div>
+            <div>Careers</div>
+            <div>Airbnb.org emergency stays</div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 d-xl-none">
+          <div>Help Center</div>
+          <div>Disability support</div>
+        </div>
+        <div class="col-12 col-md-4 d-xl-none">
+          <div>Air Cover</div>
+          <div>Cancelation options</div>
+        </div>
+        <div class="col-12 col-md-4 d-xl-none">
+          <div>Anti-discrimination</div>
+          <div>Report neighborhood concern</div>
+        </div>
+      </div>
+      <hr class="d-xl-none">
+      <div class="row">
+        <div class="col-12 d-xl-none" id="hdr-ftr">
+          Hosting
+        </div>
+        <div class="col-12 col-md-4 d-xl-none">
+          <div>Airbnb your home</div>
+          <div>Community forum</div>
+        </div>
+        <div class="col-12 col-md-4 d-xl-none">
+          <div>AirCover for Hosts</div>
+          <div>Hosting responsibly</div>
+        </div>
+        <div class="col-12 col-md-4 d-xl-none">
+          <div>Hosting Resources</div>
+          <div>Airbnb-friendly apartments</div>
+        </div>
+      </div>
+      <hr class="d-xl-none">
+      <div class="row">
+        <div class="col-12 d-xl-none" id="hdr-ftr">
+          Airbnb
+        </div>
+        <div class="col-12 col-md-4 d-xl-none">
+          <div>Newsroom</div>
+          <div>Investors</div>
+        </div>
+        <div class="col-12 col-md-4 d-xl-none">
+          <div>New features</div>
+          <div>Gift cards</div>
+        </div>
+        <div class="col-12 col-md-4 d-xl-none">
+          <div>Careers</div>
+          <div>Airbnb.org emergency stays</div>
+        </div>
+      </div>
+      <hr class="d-xl-none">
+      <div class="row">
+        <div class="col-12 col-xl-4" id="hdr-ftr-2">
+          <div>Disclaimer</div>
+        </div>
+        <div class="col-12">
+          The Airbnb Newsroom is aimed at journalists. All Homes and Experiences referenced on the Airbnb Newsroom are intended purely to inspire and illustrate. Airbnb does not recoment or endorse specific Home or Expereince listings on the Airbnb platform.
+        </div>
+      </div>
+      <hr>
+      <div class="container-fluid" id="logos-footer">
+        <div class="row">
+          <div class="col">
+            <a href="#"><img src="./images/twitter logo.png"></a>
+            </div>
+          <div class="col">
+            <a href="#"><img src="./images/instagram logo.jpg"></a>
+          </div>
+          <div class="col">
+            <a href="#"><img src="./images/linkedin logo.png"></a>
+          </div>
+          <div class="col">
+            <a href="#"><img src="./images/tiktok-logo.png"></a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid center">
+        <div class="row">
+          <div class="col-12">
+            <div class="rights-ftr">© 2023 Airbnb, Inc. All rights reserved</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="rights-ftr center">Privacy / Terms / Sitemap</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+</html>
